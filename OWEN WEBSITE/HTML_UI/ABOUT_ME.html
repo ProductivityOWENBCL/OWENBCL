@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS LINK-->
+    <link rel="stylesheet" href="../css/ABOUT_ME.CSS">
+
+    <title>ABOUT ME | OWENBCL</title> <!--网页头顶名字-->
+
+    <link rel="icon" href="../picture/OWEN_Sign.PNG">
+
+
+    <style>
+        mark {
+            background-color: yellow;
+            box-shadow: 0px 2px 3px 0.01px rgba(0,0,0,0.1);
+            padding: 0px 4px;
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>    
+<body>
+    <div class="container">
+        <header>
+            <img src="../picture/OWEN_Sign.PNG" alt="Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="../HTML_UI/ABOUT_ME.html">ABOUT ME</a></li>
+                    <li><a href="../HTML_UI/MY_PROJECT_VIDEO.html">VIDEO PEOJECT</a></li>
+                    <li><a href="../HTML_UI/CONTACT.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="intro">
+                <div >
+                    <div class="container3">
+                        <span class="text first-text"></span>
+                        <span class="text sec-text"></span>
+                  </div>
+              
+                  <script>
+                      const text = document.querySelector(".sec-text")
+              
+                      const textLoad = () => {
+                        let texts = ["Hello There 🥳 ~", "你好 😆 ! !", "Apa khabar 😎 🤝", "Welcome 欢迎 Selamat Datang 😁"];
+                        let currentIndex = 0;
+                      
+                        const changeText = () => {
+                          text.textContent = texts[currentIndex];
+                          currentIndex++;
+                      
+                          if (currentIndex < texts.length) {
+                            setTimeout(changeText, 4000);
+                          } else {
+                            text.classList.remove("sec-text");
+                          }
+                        };
+                      
+                        changeText();
+                      }
+                      
+                      textLoad();
+                  </script>
+
+                </div>
+                <div>
+                <h2>Welcome to my Digital CV 😲❗</h2>
+                <p>I’m Wong Jin Wei. 
+                    <a href="#">Software Engineer</a>, from 
+                    <a href="https://new.apu.edu.my"> Asia Pacific University</a>. Knowledge 
+                    that I'm capable of in my education knowledge are :</p>
+                <p>
+                        <li>Professional Communication <b>(Very Capable of)</b></li>
+                        <li>UI Web Development & GUI Software Design <b>(Very Capable of)</b></li>
+                        <li>Research Skills</li>
+                        <li>Programming with Python</li>
+                        <li>Web Design and Technology</li>
+                        <li>Managing Business</li>
+                        <li>Fundamentals of E-Business Applications</li>
+                        <li>IT Skills </li>
+                </p>
+                <p>I also had other Skills. Such As: 
+                    <a href="../HTML_UI/MY_PROJECT_VIDEO.html">Video Editing Skills</a>, 
+                    <a href="#">Event Coordinator</a>, and 
+                    <a href="#">Film-Maker</a>. Oh! And also 
+                    <mark><b>this Website was design by myself</b></mark>.
+                </p> 
+                </div>
+
+
+            </div>
+            <div>
+                <div class="txtstylewatch_me">
+                    <h2>👇 My Intro Video 👇</h2>
+                </div>
+
+            <div class="image-container">
+                <iframe width="560" height="315"
+                src="https://www.youtube.com/embed/A8NHlRE73XU?si=aiR5fyjulxINZrYj" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>   
+            </div>
+             
+        </main>
+
+        <div>
+            <a href="../HTML_UI/CONTACT.html" class="contactbutton">👉 CONTACT 👈</a>
+        </div>
+    </div>
+
+<div>
+    <div class="container2">
+        <h1>How can I help you?</h1>
+        <div class="buttons-container">
+            <div class="button" onclick="alert('Be More Productive clicked!')">
+                <img src="rocket.png" alt="Lorem10">
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis, eos.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate, nihil.</p>
+            </div>
+            <div class="button" onclick="alert('Grow a Youtube Channel clicked!')">
+                <img src="youtube.png" alt="lorem10">
+                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto, quod.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, cupiditate!</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom-spacer"></div>
+</body>
+</html>
