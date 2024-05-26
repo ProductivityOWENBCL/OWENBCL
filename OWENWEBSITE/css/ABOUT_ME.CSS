@@ -1,0 +1,253 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header {
+    width: 37%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.intro {
+    flex: 1;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.0rem;
+    line-height: 1.6;
+}
+
+.intro a {
+    color: #589CFC;
+    text-decoration: none;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+/*----------------------------------------------*/
+
+.bottom-spacer { height: 100px;}
+.bottom-spacer-small { height: 50px;}
+
+  /*-------------------------------------------------------------------------*/
+  .about-container {
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-section img {
+    width: 430px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.text-section {
+    flex: 2;
+    padding: 20px;
+}
+
+.text-section h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.text-section a {
+    color: #589CFC;
+    text-decoration: none;
+}
+
+.text-section a:hover {
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 0;
+    text-decoration: none;
+    box-shadow: 0 0 10px 0.01px rgba(0, 0, 0, 0.05);
+}
+
+.footer-container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 15px;
+    min-width: 150px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section.social {
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #589CFC;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section p a {
+    color: #589CFC;
+    text-decoration: none;
+}
+
+.footer-section p a:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------------------*/
+
+/*---------------------------- RESUME PART ----------------------------*/
+.resume-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .resume-image {
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  button[type="button"] {
+    background-color: #589CFC;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #3086ff;
+  }

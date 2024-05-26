@@ -1,0 +1,52 @@
+#firstcol,
+#firstcol > DIV:first-child {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+#firstcol > DIV:first-child {
+  overflow: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#slides > DIV.CurrentShow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 1;
+}
+
+#slides > DIV > DIV:first-child {
+  aspect-ratio: 1 / 1;
+  height: 100%;
+  box-shadow: #fff -20px 0px 13px inset;
+  overflow: hidden;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#slides > DIV > DIV:last-child {
+  flex: 1;
+  padding: 50px;
+}
+
+#slides > DIV {
+  display: flex;
+  opacity: 0;
+  height: 100%;
+  align-items: center;
+  transition: opacity 1s;
+}
+
+#scroller {
+  z-index: 100;
+}

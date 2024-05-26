@@ -1,0 +1,64 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#psychobox,
+#chatbox {
+  display: flex;
+  position: absolute;
+  left: -100%;
+  right: 100%;
+  bottom: 0;
+  top: 0;
+  transition: all 1s;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#psychobox.active,
+#chatbox.active {
+  left: 0;
+  right: 0;
+}
+
+#testlogin {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 100;
+}
+
+#testlogin > DIV {
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  height: 50%;
+  left: 25%;
+  background: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#testlogin > DIV > form > DIV:first-child {
+  font-size: 2em;
+}
+
+#testlogin > DIV > form > DIV:not(:first-child) {
+  margin-top: 10px;
+}
