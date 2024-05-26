@@ -1,0 +1,221 @@
+*:not(p) {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Poppins, sans-serif"; */
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+  } 
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../Video/next\ page.gif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(20px);
+  }
+  
+  .logo {
+    /* font-size: 2em; */
+    color: #ffffff;
+    user-select: none;
+    padding-left: 0%;
+  }
+  
+  .navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+  }
+  
+  .navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+  
+  .navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  
+  .navbackground {
+    background: transparent;
+    border: 4px solid rgb(255, 255, 255);
+    backdrop-filter: blur(500px);
+    border-radius: 0 0 0px 20px;
+  }
+  
+
+/* For San Francisco Pro */
+@font-face {
+  font-family: 'San Francisco';
+  src: local('San Francisco Pro'), local('SanFranciscoPro-Regular'),
+       url('path-to-your-font/SanFranciscoPro-Regular.woff2') format('woff2'),
+       url('path-to-your-font/SanFranciscoPro-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* For San Francisco Pro Bold */
+@font-face {
+  font-family: 'San Francisco';
+  src: local('San Francisco Pro Bold'), local('SanFranciscoPro-Bold'),
+       url('path-to-your-font/SanFranciscoPro-Bold.woff2') format('woff2'),
+       url('path-to-your-font/SanFranciscoPro-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Apply the font to an element */
+.sanfrancisco {
+  font-family: 'San Francisco', sans-serif;
+}
+  .recommendedvideo {
+    background: transparent;
+    /* border: 4px solid rgb(255, 255, 255); */
+    backdrop-filter: blur(500px);
+    border-radius: 20px;
+    aspect-ratio: 659 / 369;
+    margin: 40px 150px 10px 150px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .navigation {
+    display: flex;
+    flex: 1;
+    background: transparent;
+    backdrop-filter: blur(500px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-image: linear-gradient(90deg, #cce6e3, #9ecbe2, #cce6e3);
+    z-index: 100;
+  }
+  
+  .navigation > DIV {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .navigation > DIV.separator {
+    width: 1px;
+    border-right: 1px solid;
+    margin: 20px 10px;
+  }
+  
+  .navigation .logo {
+    color: #1a96aa;
+    user-select: none;
+    padding-left: 0%;
+  }
+  
+  .navigation .logo > h2 {
+    font-size: 2em;
+    font-family: Centaur, Time New Roman;
+  }
+  
+  .navigation .link {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  .navigation .link > a {
+    display: inline-block;
+    margin: 5px 20px 5px 5px;
+  }
+  
+  .content {
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .content > DIV {
+    height: 100%;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  /* For San Francisco Pro */
+  @font-face {
+    font-family: "San Francisco";
+    src: local("San Francisco Pro"), local("SanFranciscoPro-Regular"),
+      url("path-to-your-font/SanFranciscoPro-Regular.woff2") format("woff2"),
+      url("path-to-your-font/SanFranciscoPro-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  /* For San Francisco Pro Bold */
+  @font-face {
+    font-family: "San Francisco";
+    src: local("San Francisco Pro Bold"), local("SanFranciscoPro-Bold"),
+      url("path-to-your-font/SanFranciscoPro-Bold.woff2") format("woff2"),
+      url("path-to-your-font/SanFranciscoPro-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  /* Apply the font to an element */
+  .sanfrancisco {
+    font-family: "San Francisco", sans-serif;
+    padding: 10px;
+  }
+  
+  footer {
+    background: transparent;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    position: relative;
+  }
+  
+  .navigation BUTTON {
+    width: 70px;
+    height: 40px;
+  }
+  
