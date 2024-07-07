@@ -1,0 +1,209 @@
+.background-white-blue,
+.background-white-blue * {
+  box-sizing: border-box;
+}
+.background-white-blue {
+  background: #ffffff;
+  border-radius: 16px;
+  width: 1440px;
+  height: 2700px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  position: absolute;
+  inset: 0;
+}
+.wallpaper {
+  width: 1440px;
+  height: 2694px;
+  position: static;
+}
+.wallpaper2 {
+  width: 1440px;
+  height: 899px;
+  position: absolute;
+  left: 0px;
+  top: 896px;
+  object-fit: cover;
+}
+.wallpaper3 {
+  width: 1440px;
+  height: 899px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.wallpaper4 {
+  width: 1440px;
+  height: 899px;
+  position: absolute;
+  left: 0px;
+  top: 1795px;
+  object-fit: cover;
+}
+.intro-experpsy {
+  width: 1440px;
+  height: 900px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  backdrop-filter: blur(50px);
+  object-fit: cover;
+}
+.purple-modern-personal-portfolio-blog-desktop-prototype-1 {
+  width: 1439px;
+  height: 899px;
+  position: absolute;
+  left: 1px;
+  top: 896px;
+  object-fit: cover;
+}
+._3-1 {
+  width: 1440px;
+  height: 900px;
+  position: absolute;
+  left: 0px;
+  top: 1800px;
+  filter: blur(50px);
+  object-fit: cover;
+}
+.text-box {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(187, 99, 219, 0.22) 58.99999737739563%,
+    rgba(187, 99, 219, 0) 86.00000143051147%
+  );
+  border-radius: 27px;
+  width: 640px;
+  height: 640px;
+  position: absolute;
+  left: 664px;
+  top: 129px;
+  box-shadow: 0px 4px 49.1px 13px rgba(213, 213, 250, 1);
+}
+.decoration-box {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(187, 99, 219, 0.22) 58.99999737739563%,
+    rgba(187, 99, 219, 0) 100%
+  );
+  border-radius: 11px;
+  width: 77.21px;
+  height: 77.21px;
+  position: absolute;
+  left: 539.97px;
+  top: 503.4px;
+  box-shadow: inset 0px 4px 105.1px -2px rgba(208, 189, 247, 1),
+    0px 4px 25.9px -15px rgba(72, 72, 72, 1),
+    0px 4px 25.9px -15px rgba(72, 72, 72, 1),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(17deg) scale(1, 1);
+}
+.decoration-box2 {
+  background: conic-gradient(
+    from 180deg at 50% 50%,
+    rgba(187, 99, 219, 0.22) 58.99999737739563%,
+    rgba(187, 99, 219, 0) 86.00000143051147%
+  );
+  border-radius: 27px;
+  width: 110.05px;
+  height: 110.05px;
+  position: absolute;
+  left: 27px;
+  top: 404.64px;
+  box-shadow: inset 10px -11px 121.5px 13px rgba(183, 159, 247, 0.7),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transform-origin: 0 0;
+  transform: rotate(-20deg) scale(1, 1);
+}
+.exper-psy {
+  color: #000000;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  position: absolute;
+  left: 885px;
+  top: 142px;
+  width: 197px;
+  height: 92px;
+}
+.welcome-to-exper-psy-exper-psy-here-for-to-helps-you-your-life-to-make-your-life-easier-we-are-here-to-teach-you-assist-you-and-to-teach-you-how-to-be-better-and-productivity-in-your-life-you-can-chat-with-your-new-best-friends-here-and-be-free-to-and-nice-to-be-here-with-us {
+  color: #000000;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: absolute;
+  left: 703px;
+  top: 234px;
+  width: 562px;
+}
+.make-exper-psy-be-your-daily-friends {
+  color: #000000;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 671px;
+  top: 961px;
+}
+.creating-a-cozy-environment-not-only-make-yourself-comfortable-but-also-boosts-your-efficiency-in-your-personal-space-let-s-work-together-to-make-your-home-a-source-of-inspiration-and-a-hub-for-productivity {
+  color: #000000;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 787px;
+  top: 1236px;
+}
+.rectangle-1 {
+  background: linear-gradient(
+    180deg,
+    rgba(251, 212, 236, 1) 50%,
+    rgba(247, 221, 240, 0) 100%
+  );
+  border-radius: 25px;
+  width: 531px;
+  height: 531px;
+  position: absolute;
+  left: 115px;
+  top: 2028px;
+  box-shadow: 0px 4px 33px -14px rgba(0, 0, 0, 0.27),
+    inset 0px 4px 29.8px 0px rgba(255, 175, 224, 0.6);
+}
+.if-you-want-to-know-more-check-out-the-other-pages-on-the-navigation-bar-hope-you-have-an-enjoy-on-using-our-web-to-make-your-life-wonderful {
+  color: #000000;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  position: absolute;
+  left: 172px;
+  top: 2110px;
+}
+.stay-at-home-1 {
+  width: 342px;
+  height: 342px;
+  position: absolute;
+  left: 895px;
+  top: 2171px;
+  box-shadow: inset -1px -6px 18.8px 0px rgba(0, 0, 0, 0.15),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+}
+.high-quality-1 {
+  width: 97px;
+  height: 97px;
+  position: absolute;
+  left: 1140px;
+  top: 2122px;
+  box-shadow: 0px 4px 11.2px 0px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+@import url('https://fonts.googleapis.com/css?family=Inter');
