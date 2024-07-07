@@ -1,0 +1,46 @@
+#psychobox {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  #psychobox > DIV {
+    width: 192px;
+    height: 192px;
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #psychobox > DIV IMG {
+    width: 192px;
+    height: 192px;
+    object-fit: cover;
+  }
+  
+  #psychobox > DIV .descblock {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }
+  
+  #psychobox > DIV .name {
+    text-align: center;
+    font-size: 1.5em;
+  }
+  
+  #psychobox > DIV .desc {
+    height: 0;
+    text-align: center;
+    transition: height 1s;
+    overflow: hidden;
+  }
+  
+  #psychobox > DIV:hover .desc {
+    height: 96px;
+  }
+  
