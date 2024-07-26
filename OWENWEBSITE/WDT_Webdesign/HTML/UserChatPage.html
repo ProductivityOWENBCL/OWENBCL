@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Live | ExperPsy</title>
+
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxPage.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxMain.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxPsychobox.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxhomepage.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxHomeMain.css">
+
+    <link rel="icon" href="Picture/1.png" />
+    <script src="../HTML/JS/userchatpage.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+          <div class="logo"><h2>ExperPsy</h2></div>
+        <div class="separator"></div>
+        <div class="link">
+          <a href="../HTML/UserHomeExperPsy2.html">Home</a>
+          <a href="../HTML/UserVideo&LiStream.html">Knowledge Videos</a>
+          <a href="../HTML/AboutUs&WhatNew.html">About What New</a>
+          <a href="../HTML/SeekProfessional.html">Seek Professional</a>
+          <a href="../HTML/UserChatPage.html">(<b>RESET</b>) Chat Pages</a>
+          <a href="../HTML/PsychologistChatPage.html">Psychologist Chat</a>
+        </div>
+      </div>
+      <div class="content">
+        <div id="testlogin">
+          <div>
+            <form onsubmit="return false;" name="loginform">
+              <div>User Login Page</div>
+              <div>
+                <input type="text" name="username" placeholder="User Name" />
+              </div>
+            
+
+
+              <div><button onclick="login()">Login</button></div>
+            </form>
+          </div>
+        </div>
+        <div id="psychobox" class="active"></div>
+        <div id="chatbox">
+          <div class="title" onclick="goback()">&lt; Back to the homepage</div>
+          <div class="chatboxbody">
+            <div id="activechat"></div>
+            <div class="chatarea">
+              <div id="currentchat"></div>
+              <div class="chatinput">
+                <form onsubmit="return false" name="chatboxform">
+                  <input type="text" name="message" />
+                  <button onclick="sendMessage()">Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </body>
+</html>
