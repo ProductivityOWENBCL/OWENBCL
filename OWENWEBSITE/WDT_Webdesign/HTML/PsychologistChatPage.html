@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Live | ExperPsy</title>
+
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxPage.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxMain.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxPsychobox.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxhomepage.css">
+    <link rel="stylesheet" href="../HTML/CSS/UserChatBoxHomeMain.css">
+
+    <link rel="icon" href="Picture/1.png" />
+    <script src="../HTML/JS/psychologistchatpage.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="navigation">
+          <div class="logo"><h2>ExperPsy</h2></div>
+        <div class="separator"></div>
+        <div class="link">
+          <a href="../HTML/UserHomeExperPsy2.html"><b>Home</b></a>
+          <a href="../HTML/UserVideo&LiStream.html"><b>Knowledge Videos</b></a>
+          <a href="../HTML/AboutUs&WhatNew.html"><b>About What New</b></a>
+          <a href="../HTML/SeekProfessional.html"><b>Seek Professional</b></a>
+          <a href="../HTML/UserChatPage.html"><b>Chat Pages</b></a>
+            <a href="../HTML/PsychologistChatPage.html">(RESET) Psychologist Chat</a>
+        </div>
+      </div>
+      <div class="content">
+        <div id="testlogin">
+          <div>
+            <form onsubmit="return false;" name="loginform">
+              <div>User Login Page</div>
+              <div>
+                <input type="text" name="username" placeholder="User Name" />
+              </div>
+              <div>
+                <label
+                  ><input type="checkbox" name="isPsycho" />&nbsp;I'm a Psychologist</label>
+              </div>
+              <div><button onclick="login()">Login</button></div>
+            </form>
+          </div> 
+        </div>
+        <div id="psychobox" class="active"></div>
+        <div id="chatbox">
+          <div class="title" onclick="goback()">&lt; Back to the homepage</div>
+          <div class="chatboxbody">
+            <div id="activechat"></div>
+            <div class="chatarea">
+              <div id="currentchat"></div>
+              <div class="chatinput">
+                <form onsubmit="return false" name="chatboxform">
+                  <input type="text" name="message" />
+                  <button onclick="sendMessage()">Send</button>
+                </form>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </body>
+</html>

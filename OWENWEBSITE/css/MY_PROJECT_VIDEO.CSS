@@ -1,0 +1,263 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAVIGATION BAR (START) */
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.menu-icon span {
+    width: 25px;
+    height: 3px;
+    background-color: #000;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #e0e0e0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #f8f8f8;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: flex;
+    }
+}
+/* NAVIGATION BAR (END) */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+header-h {
+    width: 36.5%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10;
+
+}
+
+.intro {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5rem;
+}
+
+.intro p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+}
+
+.intro a {
+    color: #589CFC;
+    text-decoration: none;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 80%;
+    border-radius: 10px;
+}
+
+/*-------------------------------------*/
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.header h1 {
+    font-size: 2em;
+    color: #000000;
+}
+
+.header p {
+    font-size: 1.3em;
+}
+
+.header a {
+    color: #589CFC;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.videos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.video {
+    text-align: center;
+}
+
+.video p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+    margin-left: 18%;
+    margin-right: 18%;
+} */
+
+/*--------------------------------------------------------------*/
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 40px 0;
+    text-decoration: none;
+    box-shadow: 0 0 10px 0.01px rgba(0, 0, 0, 0.05);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 15px;
+    min-width: 150px;
+}
+
+.footer-section h3 {
+    margin-bottom: 20px;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-section.social {
+    text-align: center;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.social-icons a:hover {
+    color: #589CFC;
+}
+
+.footer-section p {
+    margin: 5px 0;
+}
+
+.footer-section p a {
+    color: #589CFC;
+    text-decoration: none;
+}
+
+.footer-section p a:hover {
+    text-decoration: underline;
+}
+
+/*--------------------------------------*/
+
+/*--------------------------------------*/
